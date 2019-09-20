@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mesmeri.github.io/rsschool-cv/cv
