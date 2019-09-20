@@ -10,3 +10,20 @@
 
 ***
 
+Hello! I am a 28 years old self-taught junior front-end developer from Lviv, Ukraine. During last 2 years I have dedicated my time to learning as much as I can by using all resources at my disposal. I am following new trends and eager to learn new technologies and tools. Now, I\`m actively looking for full-time web development job opportunities, which will allow me to improve my computing skills and grow as a junior front-end web developer.  
+
+Here is a list of languages, libraries and tools which I have used in my projects:
+- HTML5
+- CSS3
+- SASS
+- Gulp
+- vanilla JavaScript (ES6)
+- jQuery
+- Bootstrap4
+- MySQL  
+
+Also I have en experience in working with:
+- Git
+- Adobe Photoshop, Avocode
+- BEM methodology  
+
