@@ -54,4 +54,4 @@ function persistence(num) {
 }
 ```  
 
-You can also find my projects on [my personal web-site](google.com).
+You can also find my projects on [my personal web-site](http://www.oksana-shuptar.me).
