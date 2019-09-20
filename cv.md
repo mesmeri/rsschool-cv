@@ -27,3 +27,31 @@ Also I have en experience in working with:
 - Adobe Photoshop, Avocode
 - BEM methodology  
 
+```
+function persistence(num) {
+  
+  let counter = 0;
+
+  let multiply = function (num) {
+
+  	let numArr = (num.toString()).split('');
+    
+    if (numArr.length <= 1) {
+      return 0;
+    }
+    
+    numArr = numArr.map(current => +current);
+    
+    let res = numArr.reduce((mult, current) => mult * current);
+    counter++;
+    
+    return multiply(res);
+  }
+
+  multiply(num);
+
+  return counter;
+}
+```  
+
+You can also find my projects on [my personal web-site](google.com).
