@@ -27,7 +27,7 @@ Also I have en experience in working with:
 - Adobe Photoshop, Avocode
 - BEM methodology  
 
-```
+```javascript
 function persistence(num) {
   
   let counter = 0;
