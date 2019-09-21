@@ -27,6 +27,8 @@ Also I have en experience in working with:
 - Adobe Photoshop, Avocode
 - BEM methodology  
 
+Please, take a look on example of my code below:
+
 ```javascript
 function persistence(num) {
   
