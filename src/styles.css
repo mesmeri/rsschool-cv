@@ -12,6 +12,15 @@ h2 {
   font-family: 'Barlow', sans-serif;
 }
 
+a {
+  color: #7e5f55;
+}
+
+a:hover,
+a:active {
+  color: #000;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -114,4 +123,65 @@ img {
   border-radius: 50%;
   z-index: 5;
   position: relative;
+}
+
+.aside,
+.main {
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  max-width: 500px;
+  margin: 20px 0 20px auto;
+}
+
+pre {
+    font-size: 16px;
+    line-height: 1;
+    background-color: rgb(218, 153, 129, 0.1);
+}
+
+.about .section-title,
+.skills .section-title,
+.projects .section-title {
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgb(218, 153, 129, 0.3);
+}
+
+.projects {
+    margin-bottom: 30px;
+}
+
+.offer {
+    margin: 90px 0;
+}
+
+.contacts-list,
+.social-list {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.contacts-list span {
+    font-style: italic;
+}
+.contacts-list a {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.social {
+    font-weight: bold;
+}
+
+.social-list li {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
