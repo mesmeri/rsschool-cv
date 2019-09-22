@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Barlow:200,400&display=swap" rel="stylesheet">
+  <link type="text/css" href="src/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container">
+    <div class="header-wrapper d-flex">
+      <div class="photo left-column">
+        <img src="assets/img/photo1.jpg" alt="Photo">
+      </div>
+      <header class="page-header right-column">
+        <h1 class="page-title">
+          Oksana Shuptar
+        </h1>
+        <span class="subtitle">Junior web developer</span>
+      </header>
+    </div>
+  </div>
+  <!-- End of Header -->
+
+  <!-- Main content -->
+  <div class="container">
+    <div class="content-wrapper d-flex">
+      <aside class="aside left-column">
+        <p class="offer">
+          I am definitely full of enthusiasm and willingness to work in a team on interesting projects. So,
+          if you are interested in my application you can contact me in any convenient way.
+        </p>
+        <section class="contacts">
+          <h2 class="section-title">
+            Contacts
+          </h2>
+          <ul class="contacts-list">
+            <li>
+              <span>email:</span><a href="email:shuptaroks@gmail.com" class="contacts-link">shuptaroks@gmail.com</a>
+            </li>
+            <li>
+              <span>tel:</span><a href="tel:+380123456789" class="contacts-link">+380123456789</a>
+            </li>
+          </ul>
+          <p class="social">
+            Social networks
+          </p>
+          <ul class="social-list">
+            <li>Twitter: @shuptaroksana</li>
+            <li>Facebook: /shuptaroksana</li>
+            <li>Instagram: @shuptaroksana</li>
+          </ul>
+        </section>
+      </aside>
+      <main class="main right-column">
+        <div class="quote">
+          <q>
+            I am always fully immersed in what I do. And every time I
+            do my best to solve problems even better than requested.
+          </q>
+        </div>
+        <section class="about">
+          <h2 class="section-title">
+            About me
+          </h2>
+          <p class="about-text">
+            Hello! I am a 28 years old self-taught junior front-end developer from Lviv, Ukraine. During last 2 years I
+            have dedicated my time to learning as much as I can by using all resources at my disposal.
+            I am following new trends and eager to learn new technologies and tools. Now, I`m actively looking for
+            full-time web development job opportunities, which will allow me to improve my computing skills
+            and grow as a junior front-end web developer.
+          </p>
+        </section>
+        <section class="skills">
+          <h2 class="section-title">
+            Skills
+          </h2>
+          <p>
+            Here is a list of languages, libraries and tools which I have used in my projects:
+          </p>
+          <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SASS</li>
+            <li>Gulp</li>
+            <li>Vanilla JavaScript(ES6)</li>
+            <li>JQuery</li>
+            <li>Bootstrap4</li>
+            <li>MySQL</li>
+          </ul>
+          <p>
+            Also I have en experience in working with:
+          </p>
+          <ul class="skills-list">
+            <li>Git</li>
+            <li>Adobe Photoshop, Avocode</li>
+            <li>BEM methodology</li>
+          </ul>
+        </section>
+        <section class="projects">
+          <h2 class="section-title">
+            Projects
+          </h2>
+          <details>
+            <summary>
+              Please, take a look on my code example.
+            </summary>
+            <pre>
+              <code>
+function persistence(num) {
+    let counter = 0;
+    let multiply = function (num) {
+        let numArr = (num.toString()).split('');
+        if (numArr.length <= 1) {
+            return 0;
+        }
+        numArr = numArr.map(current => +current);
+        let res = numArr.reduce((mult, current) => mult * current);
+            counter++;
+            return multiply(res);
+        }
+    multiply(num);
+    return counter;
+    }
+              </code>
+            </pre>
+          </details>
+          <p>
+            My latest projects:
+          </p>
+          <ul class="projects-list">
+            <li>The site of <a href="http://www.oksana-shuptar.me/shelter/index.html" target="_blank">Boston Animal
+                Shelter</a></li>
+            <li>The site of <a href="http://www.oksana-shuptar.me/next/index.html" target="_blank">Next design
+                agency</a></li>
+            <li>the site of <a href="http://www.oksana-shuptar.me/yes/index.html" target="_blank">YES - English language
+                school</a></li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </div>
+  <!-- End of Main content -->
+
+</body>
+
+</html>
